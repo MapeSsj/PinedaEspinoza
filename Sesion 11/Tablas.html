@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factura telefónica</title>
+    <link rel="icon" href="img/logoEntel.jpg">
 </head>
-<body>
-    <h1 style="color: blue;"><em>Entel S.A</em></h1>
-    <table border="1">
+<body style="background-color: rgb(157, 224, 245);">
+    <h1 style="color: blue;">
+    <img src="/Sesion 11/img/favicon.png" align="left"><br><em>Entel S.A</em>
+    </h1>
+    <table border="5", style="border-radius: 0.5cm;">
     <caption>Factura detallada</caption>
     <!-- cabecera de la tabla -->
-    <thead>
+    <thead style="background-color: rgb(31, 31, 230);">
         <tr>
-            <th colspan="5"> Entel S.A. - Marzo 2019</th>
+            <th colspan="5" style="color: white;"> Entel S.A. - Marzo 2019</th>
         </tr>
     </thead>
     <!-- fin cabecera -->
@@ -52,12 +55,47 @@
             <td style="text-align: center">S/ 100.00</td>
             <td colspan="2" style="text-align: center">0</td>
         </tr>
-        <tr>
-            <td colspan="2">TOTAL</td>
-            <td colspan="3" style="text-align:right"> <strong> S/ 360.00</strong></td>  
+        <tr style="background-color: rgb(31, 31, 230);">
+            <td colspan="2"  style="color: white;" >TOTAL</td>
+            <td colspan="3"  style="text-align:right"> <strong style="color: white;"> S/ 360.00</strong></td>  
         </tr>
 <!-- fin del cuerpo de la tabla -->
+    <thead>
+        <tr>
+        <th colspan="5"> Detalle de consumos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        
+        <tr>
+            <th>CONCEPTO</th>
+            <th>LLAMADAS</th>
+            <th>DURACIÓN</th>
+            <TH>IMPORTE</TH>
+            <th colspan="2">DESCUENTO</th>
+        </tr>
     </tbody>
+
+        <TR style="text-align: center;">
+            <TD style="text-align: left;">Lamada internacional</TD>
+            <td>23</td>
+            <td>10m 23s</td>
+            <td>S/130.00</td>
+            <td>0</td>        
+        </TR>
+        <tr style="text-align: center;">
+            <td style="text-align: left;">Llamada metropolitana</td>
+            <td>23</td>
+            <td>10m 23s</td>
+            <td>S/35.00</td>
+            <td>0</td>   
+        </tr>
+        <tr style="background-color: rgb(31, 31, 230);">
+            <td colspan="2" style="color: white;" >TOTAL</td>
+            <td colspan="3" style="text-align:right"> <strong style="color: white;" > S/ 165.00</strong></td>  
+        </tr>
     </table>
+   
 </body>
 </html>
