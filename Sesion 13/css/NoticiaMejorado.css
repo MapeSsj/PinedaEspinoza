@@ -1,0 +1,25 @@
+.tamaño{
+    height: auto;
+    width: auto;
+}
+#caja1{
+    background-color: red;
+    width: auto;
+    height: 60px;
+    font-size: 40px;
+    font-style: cooper;
+    text-align:center ;
+}
+#caja2{
+    text-align: left;
+}
+#caja3{
+    font-size: 20px ;
+}
+img{
+    float:right;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    
+}

@@ -1,0 +1,21 @@
+.tamaño{
+    height: auto;
+    width: auto;
+}
+
+#caja2{
+background-color: green;
+
+}
+img{
+    
+    float: right;
+    height: 250px;
+}
+
+#caja3 {
+    width: auto;
+    height: auto;
+    float: right;
+    background-color: yellow;
+}
