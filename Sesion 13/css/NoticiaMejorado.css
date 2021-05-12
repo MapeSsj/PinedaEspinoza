@@ -1,7 +1,4 @@
-.tamaño{
-    height: auto;
-    width: auto;
-}
+
 #caja1{
     background-color: red;
     width: auto;
@@ -10,16 +7,33 @@
     font-style: cooper;
     text-align:center ;
 }
+
 #caja2{
     text-align: left;
+
 }
+
 #caja3{
     font-size: 20px ;
 }
+#barra{
+    background-color: gray;
+    width: auto;
+    font-family: 'comic sans';
+    
+}
+
 img{
-    float:right;
-    position: relative;
-    height: 250px;
-    width: 350px;
+    float: right;
+}
+#caja4{
+    text-align: justify;
+}
+#caja5{
+    background-color: red;
+    padding: 5px;
+    width: 190px;
+    float: right;
+    text-align:center ;
     
 }
