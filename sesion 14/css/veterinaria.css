@@ -8,8 +8,8 @@
     grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer ";
     background-image: url();
     padding-top: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
     
 }  
 
@@ -19,21 +19,49 @@
 }
 header{
     grid-area: my-header;
-    background-color: white;  
+    background-color: white;
+    text-align: center;
+   
+}
+
+header div {
+    padding-top: 35px ;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
 }
 img{
  
     float:right;
     width: 150px;
+    padding-top: 25px;
+    padding-right: 280px;
 
 }
-
 
 nav{
     grid-area: my-nav;
     background-color: rgb(75, 75, 75); 
-    color: white;
     
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul li {  
+    list-style: none;
+    color: white;
+    padding: 20px;
+
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(13, 13, 29);
+    padding: 12px;
 }
 
 section{
@@ -41,9 +69,8 @@ section{
     background-color: blue;   
     text-align:justify; 
     padding: 8px;
-
-    
 }
+
 #caja1{
     background-color: rgb(98, 119, 241);
     width: auto;
