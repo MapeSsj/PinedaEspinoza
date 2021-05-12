@@ -1,31 +1,31 @@
 .grid{
     display: grid;
-    grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+    grid-template-areas: "head head head" "my-nav my-sect my-aside" "foot foot foot";
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 200px 400px 200px;
 }
 
 header{
-    grid-area: header;
+    grid-area: head;
     background-color: blueviolet;  
 }
 
 nav{
-    grid-area: nav;
+    grid-area: my-nav;
     background-color: rgb(43, 226, 89); 
 }
 
 section{
-    grid-area: section;
+    grid-area: my-sect;
     background-color: rgb(43, 61, 226);    
 }
 
 aside{
-    grid-area: aside;
+    grid-area: my-aside;
     background-color: rgb(226, 43, 43);    
 }
 
 footer{
-    grid-area: footer;
+    grid-area: foot;
     background-color: rgb(226, 214, 43);   
 }

@@ -1,0 +1,85 @@
+.grid{
+    margin: 0px auto;
+    /* max-width: 1000px;
+    min-height: 100vh;  */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer ";
+    background-image: url();
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}  
+
+.image-fondo{
+   
+    background-image: url(../img/fondo-huellitas.jpg);
+}
+header{
+    grid-area: my-header;
+    background-color: white;  
+}
+img{
+ 
+    float:right;
+    width: 150px;
+
+}
+
+
+nav{
+    grid-area: my-nav;
+    background-color: rgb(75, 75, 75); 
+    color: white;
+    
+}
+
+section{
+    grid-area: my-section;
+    background-color: blue;   
+    text-align:justify; 
+    padding: 8px;
+
+    
+}
+#caja1{
+    background-color: rgb(98, 119, 241);
+    width: auto;
+    padding: 2px;
+}
+
+aside{
+    grid-area: my-aside;
+    background-color: rgb(33, 15, 194);  
+    color: white;  
+}
+
+footer{
+    grid-area: my-footer;
+    background-color: rgb(55, 67, 175);
+    text-align: center;  
+    color: white;  
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .grid{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
+
+    }
+
+}
+@media (min-width: 1001px){
+    .grid{
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer ";
+    
+    }
+
+}
