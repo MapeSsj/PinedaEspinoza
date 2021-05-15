@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+.grid{
+    margin: 0px auto;
+    max-width: 1920px;
+    min-height: 85vh;
+    display: grid;
+    width: 95%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 100px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer ";
+   
+}  
+
+header{
+    grid-area: my-header;
+    background-color: rgb(20, 185, 197); 
+    text-align: left; 
+    padding-right: 5PX;
+   
+}
+
+header div {   
+    margin: 50px;
+    padding-left: 120px;    
+}
+
+header p{
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+img{
+    width: 120px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+   
+}
+nav{
+    grid-area: my-nav;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+ nav a:link, nav a:visited{
+     color: white;
+ }
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+nav ul li  {  
+    list-style: none;
+    float: left;
+    padding: 18px;
+    text-align: center;
+    width: 20%;
+    
+}
+
+nav ul li:hover{
+    background-color: skyblue;
+}
+
+
+section{
+    grid-area: my-section;
+    background-color: rgb(255, 255, 255);  
+    text-align: justify;  
+    padding-top: 20px;
+
+}
+section p{
+    width: 75%;
+    padding-top: 10px;
+}
+
+section div{
+    padding: 15px;
+}
+#img02{
+    float: right;
+    width: 250px;
+    margin-right: 50px; 
+    margin-top: 15px; 
+   
+}
+
+#img03{
+    
+    float: right;
+    width: 250px;
+    margin-right: 50px;  
+    margin-top: 15px; 
+}
+aside{
+    grid-area: my-aside;
+    background-color: rgb(34, 221, 228);   
+    
+}
+aside div{
+  background-color: rgba(61, 141, 133, 0.301);
+   margin: 10%;
+   width: 80%;
+  padding-left: 10px;
+   padding-top: 20px;
+
+}
+aside div ul{
+    padding-left:50px ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer{
+    grid-area: my-footer;
+    padding: 100px;
+    background-color: rgb(50, 189, 199);   
+}
+
+
+@media (min-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
+
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px){
+    .grid{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
+
+    }
+}
