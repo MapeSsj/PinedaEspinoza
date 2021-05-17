@@ -7,11 +7,11 @@
 .grid{
     margin: 0px auto;
     max-width: 1920px;
-    min-height: 85vh;
+    min-height: 90vh;
     display: grid;
-    width: 85%;
+    width: 95%;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 50px 1fr 100px 100px;
+    grid-template-rows: 100px 50px 1fr 100px 180px;
     grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
    
 }  
@@ -23,10 +23,14 @@ header{
     padding-right: 5PX;
    
 }
-header nav{
+header a{
     float: right;
     background-color:  rgb(20, 185, 197) ;
     margin: 10px;
+}
+header a:link,header a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 header div {   
@@ -39,7 +43,7 @@ header p{
     margin-right: 25px;
 }
 
-img{
+header img{
     width: 120px;
     float: left;
     margin-top: 25px;
@@ -66,6 +70,7 @@ nav ul li  {
     padding: 18px;
     text-align: center;
     width: 20%;
+  
     
 }
 
@@ -82,24 +87,39 @@ section{
 
 }
 section p{
-    width: 75%;
-    padding-top: 10px;
+    width: 95%;
+    text-align: justify;
 }
-
+section #Hab ul{
+    padding-left: 40px;
+}
 section div{
-    padding: 15px;
     margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     
 }
+section div h2{
+    padding-bottom: 10px;
+}
+section div img{
 
-footer img{
-  
-    width: 7%;
-    float: left;
-    margin-left: 2%;
-    margin-top: 1%;
-    
-  }
+    float: right;
+    width: 250px;
+    margin-right: 50px; 
+    margin-top: 15px; 
+    margin-left: 25px;
+}
+section div table{
+    width: 95%;
+}
+section div table th{
+    column-width: 200px;
+    text-align: center;
+}
+section div table td{
+    text-align: center;
+}
 aside{
     grid-area: my-aside;
     background-color: rgb(34, 221, 228);   
@@ -126,7 +146,7 @@ footer{
 }
 footer div{
     float: left;
-  margin: 2%;
+  margin: 1%;
   margin-left: 4%;
    
 }
@@ -134,6 +154,7 @@ footer img{
   
   width: 7%;
   float: left;
+  margin: 1%;
   margin-left: 2%;
   margin-top: 1%;
   
@@ -144,27 +165,27 @@ footer div ul{
     padding-top: 5px;
 }
 .autor{
-    border: black, solid;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 50px;
-    margin: 0%;
-   text-align: center;
+     border: black, solid;
+     background-color: black;
+     color: white;
+     width: 100%;
+     height: 50px;
+     margin: 0%;
+    text-align: center;
 
-} 
+ } 
 
 .autor p{
-   margin-top: 15PX;
-   margin-bottom: 15px;
-   font-size: 20px;
+    margin-top: 15PX;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 @media (min-width: 600px) {
     .grid{
         display: grid;
-        grid-template-columns: 80% 20%;
-        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 150px 50px 1fr 180px;
         grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
 
     }
@@ -173,8 +194,8 @@ footer div ul{
     .grid{
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-rows: 150px 50px 1fr 180px;
         grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
 
     }
-}
+}   

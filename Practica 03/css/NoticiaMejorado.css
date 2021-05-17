@@ -1,0 +1,64 @@
+#caja1 {
+    background-color: red;
+    width: auto;
+    height: 60px;
+    font-size: 40px;
+    font-style: cooper;
+    text-align: center;
+}
+
+#caja2 {
+    text-align: left;
+
+}
+
+#caja3 {
+    font-size: 20px;
+}
+
+#barra {
+    background-color: gray;
+    width: auto;
+    font-family: 'comic sans';
+
+}
+
+img {
+    float: right;
+}
+
+#caja4 {
+    text-align: justify;
+}
+
+#caja5 {
+    background-color: red;
+    padding: 5px;
+    width: 190px;
+    float: right;
+    text-align: center;
+}
+    #back {
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #back a {
+        width: 2%;
+        padding: 10px;
+        background-color: coral;
+        border-radius: 5px;
+
+    }
+
+    #back a:link,
+    #back a:visited {
+        color: black;
+        text-decoration: none;
+        color: black;
+    }
+
+    #back a:hover {
+        background-color: rgb(223, 79, 31);
+
+    }

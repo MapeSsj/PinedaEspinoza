@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura telefónica</title>
+    <link rel="icon" href="img/logoEntel.jpg">
+</head>
+<body style="background-color: rgb(203, 238, 248);">
+    <h1 style="color: blue;">
+    <img src="/Sesion 11/img/favicon.png" align="left"><br><em>Entel S.A</em>
+    </h1>
+    <table border="5", style="border-radius: 0.5cm;">
+    <caption>Factura detallada</caption>
+    <!-- cabecera de la tabla -->
+    <thead style="background-color: rgb(31, 31, 230);">
+        <tr>
+            <th colspan="5" style="color: white;"> Entel S.A. - Marzo 2019</th>
+        </tr>
+    </thead>
+    <!-- fin cabecera -->
+    <!-- pie de la tabla -->
+    <tfoot>
+        <tr>
+            <td colspan="5" style="font-size:13px"><em>Entel le informa que puede llamar al número gratuito 081-808080
+                para cualquier duda o sugerencia que tenga acerca de esta factura o de nuestro servicios.</em></td>
+        </tr>
+    </tfoot>
+    <!-- fin pie de la tabla -->
+    <!-- cuerpo de la tabla-->
+    <tbody>
+        <tr>
+            <th colspan="5">Detalle de cuotas</th>
+        </tr>
+        <tr>
+            <th>PERIODO</th>
+            <th>CONCEPTO</th>
+            <th>IMPORTE</th>
+            <th colspan="2">DESCUENTO</th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align:center">01/03/19 - 01/04/19</td>
+            <td>Servicio de identificación de llamadas</td>
+            <td style="text-align: center">S/ 120.00</td>
+            <td colspan="2" style="text-align: center">0</td>
+        </tr>
+        <tr>
+            <td>Linea individual</td>
+            <td style="text-align:center">S/ 140.00</td>
+            <td colspan="2" style="text-align: center">0</td>
+        </tr>
+        <tr>
+            <td>Bono ciudad</td>
+            <td style="text-align: center">S/ 100.00</td>
+            <td colspan="2" style="text-align: center">0</td>
+        </tr>
+        <tr style="background-color: rgb(31, 31, 230);">
+            <td colspan="2"  style="color: white;" >TOTAL</td>
+            <td colspan="3"  style="text-align:right"> <strong style="color: white;"> S/ 360.00</strong></td>  
+        </tr>
+<!-- fin del cuerpo de la tabla -->
+    <thead>
+        <tr>
+        <th colspan="5"> Detalle de consumos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        
+        <tr>
+            <th>CONCEPTO</th>
+            <th>LLAMADAS</th>
+            <th>DURACIÓN</th>
+            <TH>IMPORTE</TH>
+            <th colspan="2">DESCUENTO</th>
+        </tr>
+    </tbody>
+
+        <TR style="text-align: center;">
+            <TD style="text-align: left;">Lamada internacional</TD>
+            <td>23</td>
+            <td>10m 23s</td>
+            <td>S/130.00</td>
+            <td>0</td>        
+        </TR>
+        <tr style="text-align: center;">
+            <td style="text-align: left;">Llamada metropolitana</td>
+            <td>23</td>
+            <td>10m 23s</td>
+            <td>S/35.00</td>
+            <td>0</td>   
+        </tr>
+        <tr style="background-color: rgb(31, 31, 230);">
+            <td colspan="2" style="color: white;" >TOTAL</td>
+            <td colspan="3" style="text-align:right"> <strong style="color: white;" > S/ 165.00</strong></td>  
+        </tr>
+    </table>
+    
+    <div id="back">
+        <a href="../proyectos.html"> < regresar </a>
+        
+    </div>
+   
+    <style>
+
+        #back{
+            text-align: center;
+            margin-top: 1%;
+        }
+                        #back a{
+                        width:2%;
+                        padding: 10px;
+                        background-color: coral;
+                        border-radius: 5px;
+                        
+                        }
+                        #back a:link, #back a:visited{
+                        color: black;
+                        text-decoration: none;
+                        color: black;
+                        }
+                        #back a:hover{
+                        background-color:rgb(223, 79, 31);
+        
+                        }
+                        </style>
+</body>
+</html>
