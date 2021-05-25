@@ -1,0 +1,10 @@
+.bloque{
+    background-color: skyblue;
+    width: 180px;
+    height: 120px;
+    padding: 10px;
+    
+}
+div li{
+    list-style: none;
+}
