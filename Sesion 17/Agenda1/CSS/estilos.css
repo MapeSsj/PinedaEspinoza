@@ -1,0 +1,19 @@
+form {
+    background-color: rgb(102, 232, 241);
+    width: 20%;
+    text-align: left;
+    margin: 10%;
+    padding: 1%;
+    margin-left: 30%;
+    border: solid gray;
+}
+form input{
+    width: 80%;
+}
+.btn{
+    width: 30%;
+    padding: 1%;
+}
+form *{
+    margin: 2% ;
+}
