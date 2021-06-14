@@ -1,0 +1,25 @@
+h3{
+    
+    border: solid 1mm;
+    margin-left: 10cm;
+    width: 250px;
+    text-align: center;
+    
+}
+body{
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+
+img{
+    float: none;
+    margin-left: 2cm;
+    
+}
+
+/* .magictime{
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    
+} */

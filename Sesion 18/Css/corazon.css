@@ -1,0 +1,36 @@
+.corazon{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%) rotate(-45deg);
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.banda{
+    position: absolute;
+    width: 170%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    top: 35%;
+    left: -10px;
+    z-index:1;
+}
+
+.corazon::before,
+.corazon::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+
+}
+.corazon::before{
+    left: 50%;
+}
+.corazon::after{
+    top: -50%;
+}

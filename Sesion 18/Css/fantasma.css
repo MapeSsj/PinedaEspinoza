@@ -1,0 +1,55 @@
+div{
+    background: #704f40;
+    color: rgb(23, 240, 88);
+    padding: .6rem .3rem 1rem .3rem;
+    position: fixed;
+    border-radius: 2rem 2rem 0rem 0rem;
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+p{
+    margin: 1cm;
+    border: solid 1mm;
+    background: #9b59b6;
+    width: 10cm;
+    margin-left: 10cm;
+    text-align: center;
+    font-size: 2cm;
+}
+/* body{
+    background-image: url("../img/fotonoticia_20200428140226_420.jpg");
+    background-size: cover;
+} */
+@keyframes animar{
+    0%{
+        left: 0;
+        top: 0;
+
+    } 10%{
+        left: 2rem;
+        top: 10rem;
+        color: #9b59b6;
+    }
+    20%{
+        top: 1rem;
+        left: 10rem;
+
+    }
+    30%{
+        top: 1rem;
+        left: 20rem;
+        
+        color: white;
+    }
+    60%{
+        top: 0rem;
+        left: 5rem;
+        color:#000000;
+    }
+    100%{
+        top: 0;
+        left: 10;
+    }
+}

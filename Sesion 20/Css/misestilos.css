@@ -1,0 +1,32 @@
+.principal{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+   
+}  
+
+header{
+   
+    background-color: blueviolet;  
+}
+
+nav{
+    
+    background-color: rgb(43, 226, 89); 
+}
+
+section{
+    
+    background-color: rgb(43, 61, 226);    
+}
+
+aside{
+    
+    background-color: rgb(226, 43, 43);    
+}
+
+footer{
+    
+    background-color: rgb(226, 214, 43);   
+}
+

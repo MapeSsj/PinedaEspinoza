@@ -1,0 +1,42 @@
+p{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* alternativa 2
+p{
+    animation: 3s infinite alternate slidein;
+}*/
+
+@keyframes slidein{
+    /* from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    } */
+
+    0%{
+        margin-left: 100%;
+        width: 300%;
+    }
+    30%{
+        background-color: orchid;
+    }
+    60%{
+        background-color: royalblue;
+    }
+    90%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+body{
+    overflow: hidden; /* Para borrar los scrooll */
+}

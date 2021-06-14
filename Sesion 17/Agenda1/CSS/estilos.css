@@ -13,6 +13,9 @@ form input{
 .btn{
     width: 30%;
     padding: 1%;
+    /* -webkit-box-shadow: -36px 3px 20px -7px rgba(0,0,0,0.7);
+    box-shadow: -3px 10px 3px -7px rgba(0,0,0,0.7); */
+
 }
 form *{
     margin: 2% ;
