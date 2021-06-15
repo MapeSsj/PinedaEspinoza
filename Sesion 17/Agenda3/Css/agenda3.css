@@ -1,29 +1,44 @@
 #contenedor{
-    width: 360px;
+    width: 600px;
     margin: auto;
     background-color: floralwhite;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: calibri;
+    
+    border: solid teal;
 }
-
+input{
+    width: 40%;
+}
 span{
-    width: 100px;
+    width: 150px;
     display: block;
     float: left;
-    padding-left: 4px;
-}
-.nom{
-    background-color: darkgrey;
+    padding-left: 10px;
 
 }
-.titu{
-    background-color: rgb(20, 255, 184);
+button{
+    margin-right: 6%;
+    margin-left: 4%;
 }
-li{
-    list-style: none;
-    margin-top: 1px;
+
+table thead{
+    background-color: teal;
+    color: white;
+    text-align: left;
+   
+    
+    
 }
-ul{
-    margin: 0px;
-    padding-left: 0px;
+table{
+    width: 500px;
+    border-collapse: collapse;
+    margin-left: 9%;
+    
+       
+}
+table tbody{
+    background-color: beige;
+    
 }

@@ -19,8 +19,9 @@ function guardarDato() {
    
 function recuperarDato() {
     var nombre = document.getElementById("nombre").value;
-    localStorage.getItem(nombre);
-    document.getElementById("movil").value = localStorage.getItem(nombre);
+    var datos = JSON.parse(localStorage.getItem(nombre));
+    document.getElementById("movil").value = datos.movil;
+    document.getElementById("email").value = datos.email;
 }
 
 function eliminarDato(){
@@ -34,16 +35,47 @@ function eliminarTodo(){
     actualizarDatos();
 }
 
-function actualizarDatos(){
-    var registro="";
-    if(localStorage.length===0){
-        registro += '<li>Vacío</li>';
-    }else{
-        for(var i=0; i<= localStorage.length-1; i++){
-            var key = localStorage.key(i);
-            registro += '<li>' + '<span class="nom">' + key +  '</span>' + '<span class="nom">' +
-            localStorage.getItem(key) + '</span>' + '</li> <br>';
-        }
+function actualizarDatos() {
+    var registro = "";
+   
+    if(localStorage.length === 0){
+        registro='<li>vacio </li><br>';
     }
-    document.getElementById('contactos').innerHTML = registro;
+        else{
+            for (var i=0; i< localStorage.length; i++){
+                var key = localStorage.key(i);
+                
+                var datos = localStorage.getItem(key);
+                datos = JSON.parse(datos);
+ 
+                registro +='<tr><td>'+key+'</td>'+
+                        '<td>'+datos.movil+'</td>'+
+                        '<td>'+datos.email+'</td></tr>';
+                                  
+            }
+        }
+    document.getElementById("registros").innerHTML=registro;
 }
+
+/* 
+function actualizarDatos() {
+    var fila = "";
+   
+    if(localStorage.length === 0){
+        fila='<li>vacio </li><br>';
+    }
+        else{
+            for (var i=0; i< localStorage.length; i++){
+                var key = localStorage.key(i);
+                alert(key);
+                var datos = localStorage.getItem(key);
+                datos = JSON.parse(datos);
+ 
+                fila +='<tr><td>'+key+'</td>'+
+                        '<td>'+datos.celular+'</td>'+
+                        '<td>'+datos.correo+'</td></tr>';
+                        alert(fila)          
+            }
+        }
+    document.getElementById("registros").innerHTML=fila;
+} */

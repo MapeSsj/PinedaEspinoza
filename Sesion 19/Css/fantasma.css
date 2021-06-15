@@ -1,0 +1,90 @@
+div{
+    background: #704f40;
+    color: rgb(23, 240, 88);
+    padding: .2rem .3rem 1rem .3rem;
+    position: fixed;
+    border-radius: 2rem 2rem 0rem 0rem;
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 0.4%;
+    
+}
+
+body{
+    background-image: url("../img/pacman.gif");
+    background-repeat: no-repeat;
+    background-size: 32%;
+} 
+
+
+@keyframes animar{
+    0%{
+        left: 1rem;
+        top: 1.5rem;
+
+    } 10%{
+        left: 0.8rem;
+        top: 8rem;
+        color: #9b59b6;
+    }
+    15%{
+        left: 8rem;
+        top: 8rem;
+    }
+    20%{
+        top: 1rem;
+        left: 8rem;
+
+    }
+    30%{
+        top: 1rem;
+        left: 15rem;
+        color: white;
+    }
+    35%{
+        top: 8rem;
+        left: 15rem;
+    }
+    40%{
+        top: 8rem;
+        left: 26rem;
+    }
+    45%{
+        top: 1rem;
+        left: 26rem;
+    }
+    50%{
+        top: 1rem;
+        left: 33rem;
+    }
+    55%{
+        top: 13rem;
+        left: 33rem;
+    }
+    60%{
+        top: 13rem;
+        left: 26rem;
+        color:#000000;
+    }
+    65%{
+        top: 36rem;
+        left: 26rem;
+    }
+    70%{
+        top: 36rem;
+        left: 8rem;
+    }
+    80%{
+        top: 1rem;
+        left: 8rem;
+    }
+    90%{
+        top: 1rem;
+        left: 1rem;
+    }
+    100%{
+        top: 1rem;
+        left: 1rem;
+    }
+}

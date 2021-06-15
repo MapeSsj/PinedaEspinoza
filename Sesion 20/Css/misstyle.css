@@ -1,0 +1,12 @@
+.container .row>div{
+    background-color: whitesmoke;
+    border: solid black;
+    padding: 1%;
+}
+
+.col{
+    border: solid black;
+    padding: 1%;
+    background-color: rgb(211, 211, 211);
+}
+
