@@ -1,0 +1,23 @@
+.container .row>div{
+    background-color: whitesmoke;
+    border: solid transparent;
+    padding: 1%;
+}
+
+.col{
+    border: solid;
+    padding: 1%;
+    background-color: rgb(211, 211, 211);
+}
+#h3{
+    width: 100px; 
+    height: 82px;
+    float: left;
+}
+#h1, #h2{
+    float: right;
+    width: 55px; 
+    height: 55px;
+    padding: 5PX;
+    margin-right: 20px;
+}

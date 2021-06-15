@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/compras.css">
+    <script src="https://kit.fontawesome.com/975123f3da.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <header>
+                <a  href="contru.html"><img id="h1" src="img/user.jpg" alt="" class="user"></a>
+                <a href="#"><img id="h2" src="img/carrito.png" alt="" class="car"></a>
+                <img id="h3" src="img/logo-ferreteria-sanchez.gif" alt="...">
+                <h1>FERRETERÍA SANCHEZ</h1>
+            </header>
+    
+          </div>
+          <div class="col-md-2">
+            <nav>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contru.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Compras</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
+                    </li>
+                  </ul>
+            </nav>
+          </div>
+          <div class="col-md-6">
+            <section class="store">
+              <div class="container">
+                  <div class="items">
+                      <div class="row">
+      
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Tornillos y tuercas</h3>
+                                  <img class="item-image" src="img/1.jpg">
+      
+                                  <div class="item-details">
+                                      <h4 class="item-price">S/. 39.99 </h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Alicate pinza</h3>
+      
+                                  <img class="item-image" src="img/2.jpg">
+      
+                                  <div class="item-details">
+                                      <h4 class="item-price">S/. 49.99</h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+      
+                      <div class="row">
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Brocha</h3>
+      
+                                  <img class="item-image" src="img/3.jpg">
+      
+                                  <div class="item-details">
+                                      <h4 class="item-price">S/. 9.99</h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Martillo</h3>
+      
+                                  <img class="item-image" src="img/4.jpg">
+      
+                                  <div class="item-details">
+                                      <h4 class="item-price"> S/. 19.99</h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Desarmador</h3>
+      
+                                  <img class="item-image" src="img/5.jpg">
+                                  <div class="item-details">
+                                      <h4 class="item-price">S/. 19.99</h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                              <div class="item shadow mb-4">
+                                  <h3 class="item-title">Llaves</h3>
+      
+                                  <img class="item-image" src="img/6.jpg">
+                                  <div class="item-details">
+                                      <h4 class="item-price">S/. 6.99</h4>
+                                      <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </section>
+          </div>
+          <div class="col-md-4">
+            <aside class="shopping-cart">
+              <div class="container">
+                  <h1 class="text-center">CARRITO</h1>
+                  <hr>
+                  <div class="row">
+                      <div class="col-6">
+                          <div class="shopping-cart-header">
+                              <h6>Producto</h6>
+                          </div>
+                      </div>
+                      <div class="col-2">
+                          <div class="shopping-cart-header">
+                              <h6 class="text-truncate">Precio</h6>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="shopping-cart-header">
+                              <h6>Cantidad</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ? START SHOPPING CART ITEMS -->
+                  <div class="shopping-cart-items shoppingCartItemsContainer">
+                  </div>
+                  <!-- ? END SHOPPING CART ITEMS -->
+      
+                  <!-- START TOTAL -->
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="shopping-cart-total d-flex align-items-center">
+                              <p class="mb-0">Total</p>
+                              <p class="ml-4 mb-0 shoppingCartTotal">0S/.</p>
+                              <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                                  data-delay="2000">
+                                  <div class="toast-header">
+                                      <span>✅</span>
+                                      <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </div>
+                                  <div class="toast-body text-white">
+                                      Se aumentó correctamente la cantidad
+                                  </div>
+                              </div>
+                              <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                                  data-target="#comprarModal">Comprar</button>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- END TOTAL -->
+      
+                  <!-- START MODAL COMPRA -->
+                  <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body">
+                                  <p>Pronto recibirá su pedido</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- END MODAL COMPRA -->
+      
+      
+              </div>
+      
+          </aside>
+          </div>
+          </div>
+          <div class="row">
+          
+          <div class="col-md-12">
+              <footer>
+                  <!-- Footer -->
+                  <footer class="text-center text-lg-start bg-light text-muted">
+                    <!-- Section: Social media -->
+                    <section
+                      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+                    >
+                      <!-- Left -->
+                      <div class="me-5 d-none d-lg-block">
+                        <span>Puede contactarnos en nuestras redes sociales:</span>
+                      </div>
+                      <!-- Left -->
+                  
+                      <!-- Right -->
+                      <div>
+                        <a href="contru.html" class="me-4 text-reset">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="contru.html" class="me-4 text-reset">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="contru.html" class="me-4 text-reset">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a href="contru.html" class="me-4 text-reset">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="contru.html" class="me-4 text-reset">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </div>
+                      <!-- Right -->
+                    </section>
+                    <!-- Section: Social media -->
+                  
+                    <!-- Section: Links  -->
+                    <section class="">
+                      <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                          <!-- Grid column -->
+                          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              <i class="fas fa-gem me-3"></i>FERRETERÍA SANCHEZ
+                            </h6>
+                            <p>
+                              Podrá encontras productos de muy alta gama de construcción, a bajos precios y de buena calidad.
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              Productos
+                            </h6>
+                            <p>
+                              <a href="contru.html" class="text-reset">Cemento</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Martillos</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Fierros</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Arena</a>
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                             Link de interes:
+                            </h6>
+                            <p>
+                              <a href="contru.html" class="text-reset">Top 5 de viviendas más hermosas</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Ideas para construir tu casa</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Ferretería Sanchez y su obra social.</a>
+                            </p>
+                            <p>
+                              <a href="contru.html" class="text-reset">Ideas para mejorar tu cocina.</a>
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              Contáctanos
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Carretera a Pimentel km 40, Chiclayo</p>
+                            <p>
+                              <i class="fas fa-envelope me-3"></i>
+                              sanchez@example.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            
+                          </div>
+                          <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                      </div>
+                    </section>
+                    <!-- Section: Links  -->
+                  
+                    <!-- Copyright -->
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                      © 2021 Copyright:
+                      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GRUPO 6.com</a>
+                    </div>
+                    <!-- Copyright -->
+                  </footer>
+                  <!-- Footer -->
+              </footer>
+          </div>
+          
+  
+        </div>
+        <script src="Js/bootstrap.min.js"></script>
+        <script src="Js/jquery-3.6.0.min.js "></script>
+        <script src="Js/tienda.js"></script>
+</body>
+</html>
