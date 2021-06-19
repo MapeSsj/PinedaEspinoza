@@ -2,6 +2,18 @@ html, body{
     height: 100%;
 }
 
+#dog{
+    
+    color: lightseagreen;
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 2%;
+    font-size: 600%;
+    border-radius: 30px;
+    background-color: rgb(146, 190, 204);
+}
+
+
 #cover{
     background: rgb(233, 224, 224) url(../img/perrito.jpg) center no-repeat;
     background-size: 100%;
@@ -14,6 +26,10 @@ html, body{
 
 #cover-texto{
     width: 100%;
+}
+
+#fondohuellitas{
+    background-image: url(../img/fondo-huellitas.jpg);
 }
 button{
     background-color: white;

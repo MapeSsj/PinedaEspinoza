@@ -38,10 +38,8 @@ function eliminarTodo(){
 function actualizarDatos() {
     var registro = "";
    
-    if(localStorage.length === 0){
-        registro='<li>vacio </li><br>';
-    }
-        else{
+    if(localStorage.length != 0){
+
             for (var i=0; i< localStorage.length; i++){
                 var key = localStorage.key(i);
                 
