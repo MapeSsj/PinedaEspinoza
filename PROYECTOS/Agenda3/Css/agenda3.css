@@ -1,0 +1,44 @@
+#contenedor{
+    width: 600px;
+    margin: auto;
+    background-color: floralwhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: calibri;
+    
+    border: solid teal;
+}
+input{
+    width: 40%;
+}
+span{
+    width: 150px;
+    display: block;
+    float: left;
+    padding-left: 10px;
+
+}
+button{
+    margin-right: 6%;
+    margin-left: 4%;
+}
+
+table thead{
+    background-color: teal;
+    color: white;
+    text-align: left;
+   
+    
+    
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    margin-left: 9%;
+    
+       
+}
+table tbody{
+    background-color: beige;
+    
+}

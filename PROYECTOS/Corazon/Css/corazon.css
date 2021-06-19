@@ -1,0 +1,237 @@
+.corazon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%) rotate(-45deg);
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.banda {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transform: translate(10%, -5%) rotate(0deg) ;
+    clip-path: polygon(75% 0%, 55% 4%, 65% 8%, 40% 12%, 50% 16%, 0% 20%, 0% 24%, 70% 22%, 55% 15%, 85% 9%, 75% 4%, 95% 0%);
+    background-color: rgb(255, 255, 255);
+    top: 35%;
+    left: -10px;
+    z-index: 1;
+}
+
+.corazon::before,
+.corazon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+
+}
+.corazon::before,
+.corazon::after {
+    animation: latircirculos 15s cubic-bezier(.32, 2, .59, 2) infinite;
+    animation-delay: 1.5s;
+
+}
+@keyframes latircirculos {
+    3% {
+        background-color: rgb(135, 70, 70);
+    }
+
+    8% {
+
+        background-color: rgb(173, 75, 75);
+    }
+
+    13% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    18% {
+        background-color: rgb(130, 67, 67);
+    }
+
+    23% {
+        background-color: rgb(134, 65, 65);
+    }
+
+    28% {
+        background-color: rgb(37, 163, 125);
+    }
+
+    33% {
+        background-color: rgb(16, 153, 119);
+    }
+
+    38% {
+        background-color: rgb(97, 121, 31);
+    }
+
+    43% {
+        background-color: rgb(141, 93, 93);
+    }
+
+
+    48% {
+        background-color: rgb(163, 248, 52);
+    }
+
+    53% {
+        background-color: rgb(28, 56, 2);
+    }
+
+    58% {
+        background-color: rgb(145, 200, 25);
+    }
+
+    63% {
+        background-color: rgb(41, 245, 41);
+    }
+
+    68% {
+        background-color: rgb(143, 27, 27);
+    }
+
+    73% {
+        background-color: rgb(105, 128, 4);
+    }
+
+    78% {
+        background-color: rgb(233, 75, 75);
+    }
+
+    83% {
+        background-color: rgb(125, 161, 24);
+    }
+
+    88% {
+        background-color: rgb(82, 74, 7);
+    }
+
+    93% {
+        background-color: rgb(238, 240, 142);
+    }
+
+    98% {
+        background-color: rgb(139, 58, 58);
+    }
+}
+
+.corazon::before {
+    left: 50%;
+}
+
+.corazon::after {
+    top: -50%;
+}
+
+/* animacion*/
+.corazon {
+    animation: latir 15s cubic-bezier(.32, 2, .59, 2) infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes latir {
+    3% {
+        transform:  translate(-50%, -30%) rotate(-45deg) scale(1.1);
+        background-color: rgb(135, 70, 70);
+    }
+
+    8% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.2);
+        background-color: rgb(173, 75, 75);
+    }
+
+    13% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.3);
+        background-color: rgb(255, 0, 0);
+    }
+
+    18% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.4);
+        background-color: rgb(130, 67, 67);
+    }
+
+    23% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.5);
+        background-color: rgb(134, 65, 65);
+    }
+
+    28% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.6);
+        background-color: rgb(37, 163, 125);
+    }
+
+    33% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.7);
+        background-color: rgb(16, 153, 119);
+    }
+
+    38% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.8);
+        background-color: rgb(97, 121, 31);
+    }
+
+    43% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.9);
+        background-color: rgb(141, 93, 93);
+    }
+
+    48% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2);
+        background-color: rgb(163, 248, 52);
+    }
+
+    53% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.1);
+        background-color: rgb(28, 56, 2);
+    }
+
+    58% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.2);
+        background-color: rgb(145, 200, 25);
+    }
+
+    63% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.3);
+        background-color: rgb(41, 245, 41);
+    }
+
+    68% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.4);
+        background-color: rgb(143, 27, 27);
+    }
+
+    73% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.5);
+        background-color: rgb(105, 128, 4);
+    }
+
+    78% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.6);
+        background-color: rgb(233, 75, 75);
+    }
+
+    83% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.7);
+        background-color: rgb(125, 161, 24);
+    }
+
+    88% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.8);
+        background-color: rgb(82, 74, 7);
+    }
+
+    93% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.9);
+        background-color: rgb(238, 240, 142);
+    }
+
+    98% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(3);
+        background-color: rgb(139, 58, 58);
+    }
+}
